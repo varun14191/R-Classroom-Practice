@@ -197,7 +197,7 @@ library(sas7bdat)
 
 library(help=sas7bdat)
 
-bank_ins = read.sas7bdat("C:\\Ram\\R for Data Science\\data\\bank_additional_full.sas7bdat")
+bank_ins = read.sas7bdat("C:\\Varun\\R for Data Science\\data\\bank_additional_full.sas7bdat")
 names(bank_ins)
 
 str(bank_ins)
@@ -279,7 +279,7 @@ write.csv(mtcars, "mtcars.csv")
 tt$carmodel <- row.names(mtcars)
 row.names(tt) <- NULL
 
-write.csv(tt, "C:\\Ram\\R for Data Science\\data\\mtcars.csv",
+write.csv(tt, "C:\\Varun\\R for Data Science\\data\\mtcars.csv",
           row.names=F
 )
 
